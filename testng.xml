@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="seleniumproject test suite">
+
+<test name="seleniumproject tests">
+<listeners>
+<listener class-name="utilities.ExtentReportManager"/>
+</listeners>
+    <classes>
+      <class name="testCases.TC_001_goms_loginlogout"  />
+      <class name="testCases.TC_002_gama_loginlogout"/>
+      <class name="testCases.TC_003_mis_loginlogout"/>
+    </classes>
+  </test> 
+</suite> 
