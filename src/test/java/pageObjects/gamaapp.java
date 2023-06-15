@@ -14,8 +14,7 @@ public class gamaapp {
 		PageFactory.initElements(driver,this);
 	}
       @FindBy(name="username") 
-      WebElement username;
-      
+      WebElement username;      
       @FindBy(name="password")
       WebElement password;
       @FindBy(xpath="//span[@class='ui-button-text ui-c']")
@@ -41,6 +40,7 @@ public class gamaapp {
       public boolean targetpg()
       {
     	  return dashbdpg.isDisplayed();
+    	  
       }
       public void logout()
       {
