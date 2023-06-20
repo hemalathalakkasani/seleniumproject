@@ -1,4 +1,4 @@
-                //Gama Application
+                //This is Gama application
 
 package pageObjects;
 import org.openqa.selenium.WebDriver;
